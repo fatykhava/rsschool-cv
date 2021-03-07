@@ -1,2 +1,3 @@
 # rsschool-cv
-rsschool 2021
+[Link MD](https://fatykhava.github.io/rsschool-cv/cv)
+[Link HTML](https://fatykhava.github.io/rsschool-cv/index.html)
