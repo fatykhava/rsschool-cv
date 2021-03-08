@@ -1,0 +1,64 @@
+@font-face {
+	font-family: "Roboto-bold";
+	src: url("../fonts/Roboto-Bold.woff2"), url("../fonts/Roboto-Bold.woff"), url("../fonts/Roboto-Bold.ttf");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Roboto-regular";
+	src: url("../fonts/Roboto-Regular.woff2"), url("../fonts/Roboto-Regular.woff"), url("../fonts/Roboto-Regular.ttf");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Roboto-light";
+	src: url("../fonts/Roboto-Light.woff2"), url("../fonts/Roboto-Light.woff"), url("../fonts/Roboto-Light.ttf");
+	font-display: swap;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Roboto-regular", sans-serif;
+}
+
+main {
+	display: flex;
+}
+
+h1 {
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-shadow: 0 0 1px #000;
+}
+
+h2 {
+	font-family: "Roboto-light";
+	font-size: 14px;
+	line-height: 12px;
+	letter-spacing: 2px;
+	text-shadow: 0 0 1px #000;
+}
+
+ul {
+	padding: 0;
+	margin: 0 20px 40px;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.letter {
+	padding: 0 40px;
+	margin: 0 0 20px;
+	font-family: "Roboto-light";
+	font-size: 14px;
+	white-space: pre-line;
+}
+
