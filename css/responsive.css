@@ -1,0 +1,149 @@
+@media (max-width: 1000px) {
+	.main-description__list {
+		width: 100%;
+		margin: 0 0 40px;
+		column-gap: 50px;
+	}
+
+	.experience__item-arrow {
+		display: none;
+	}
+}
+
+@media (max-width: 850px) {
+	.education__list {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.education__info {
+		width: 65px;
+	}
+	.education__wr-title {
+		flex-direction: column;
+	}
+
+	.education__subtitle {
+		padding-left: 0;
+		border-left: none;
+	}
+
+	.experience__list {
+		flex-direction: column-reverse;
+	}
+
+	.experience__item {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 750px) {
+	.main-description__list {
+		column-count: 1;
+		width: 250px;
+	}
+}
+
+@media (max-width: 650px) {
+	.education__item {
+		padding-left: 0;
+		border-left: none;
+	}
+
+	.education__info:before {
+		display: none;
+	}
+}
+
+@media (max-width: 550px) {
+	main {
+		display: block;
+	}
+
+	.header,
+	.summary-description {
+		width: 100%;
+	}
+
+	.summary-description__container:last-child {
+		display: none;
+	}
+
+	.summary-description__title:before,
+	.summary-description__title:after {
+		width: 90px;
+	}
+
+	.summary-description__lang-list {
+		width: 200px;
+	}
+
+	.contact {
+		width: 180px;
+	}
+
+	.main-description {
+		width: 100%;
+	}
+
+	.main-description__box {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.education__item {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 40px;
+	}
+
+	.education__info {
+		width: auto;
+		margin-bottom: 15px;
+	}
+
+	.education__wr-title {
+		justify-content: center;
+		align-items: center;
+	}
+
+	.education__description,
+	.education__title {
+		text-align: center;
+	}
+
+	.education__location,
+	.education__wr-degree {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.education__svg,
+	.education__icon {
+		margin-right: 5px;
+	}
+
+	.works__description {
+		text-align: center;
+	}
+
+	.experience__list {
+		align-items: center;
+	}
+
+	.experience__item {
+		width: 200px;
+	}
+
+	.footer__triangle {
+		display: none;
+	}
+
+	.footer__link {
+		font-size: 7px;
+	}
+}
